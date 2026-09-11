@@ -1,5 +1,5 @@
 {
-  "image_name": "ghcr.io/cyber-dojo-languages/csharp_mstest:c5cc18c",
+  "image_name": "ghcr.io/cyber-dojo-languages/csharp_mstest:dbadf0a",
   "display_name": "C# 10.0, MSTest 4.0",
   "language": [
     "C#",
