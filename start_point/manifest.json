@@ -1,0 +1,29 @@
+{
+  "image_name": "ghcr.io/cyber-dojo-languages/csharp_mstest:c5cc18c",
+  "display_name": "C# 10.0, MSTest 4.0",
+  "language": [
+    "C#",
+    "10.0"
+  ],
+  "test_framework": [
+    "MSTest",
+    "4.0"
+  ],
+  "visible_filenames": [
+    "cyber-dojo.sh",
+    "HikerTest.cs",
+    "Hiker.cs",
+    "ILogger.cs",
+    "dojo.csproj"
+  ],
+  "rag_lambda": "red_amber_green.rb",
+  "filename_extension": [
+    ".cs"
+  ],
+  "max_seconds": 15,
+  "tab_size": 4,
+  "progress_regexs": [
+    "failed: [1-9]\\d*",
+    "failed: 0\\s+succeeded: [1-9]\\d*"
+  ]
+}
