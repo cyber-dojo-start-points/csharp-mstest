@@ -1,9 +1,9 @@
 {
   "image_name": "ghcr.io/cyber-dojo-languages/csharp_mstest:dbadf0a",
-  "display_name": "C# 10.0, MSTest 4.0",
+  "display_name": "C# 14.0, MSTest 4.0",
   "language": [
     "C#",
-    "10.0"
+    "14.0"
   ],
   "test_framework": [
     "MSTest",

@@ -1,0 +1,9 @@
+{
+  "matches": [ "^Test run summary: Zero tests ran " ],
+  "match_counts": {
+    "^  total: 0$": 1,
+    "^  failed: 0$": 1,
+    "^  succeeded: 0$": 1,
+    "^failed ": 0
+  }
+}

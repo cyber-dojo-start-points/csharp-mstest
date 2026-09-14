@@ -1,0 +1,12 @@
+{
+  "match_counts": {
+    "^failed life_the_universe_and_everything \\(": 1,
+    "^failed ": 1,
+    "^  Assert\\.AreEqual failed\\. Expected:<42>\\. Actual:<54>\\.": 1,
+    "^  Test method ": 0,
+    "^Test run summary: Failed! ": 1,
+    "^  total: 1$": 1,
+    "^  failed: 1$": 1,
+    "^  succeeded: 0$": 1
+  }
+}

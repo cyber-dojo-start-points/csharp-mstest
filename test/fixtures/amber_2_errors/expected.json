@@ -1,0 +1,11 @@
+{
+  "match_counts": {
+    "^failed ": 2,
+    "^  Test method HikerTest\\.[a-z_]+ threw exception:$": 2,
+    "^  System\\.DivideByZeroException: Attempted to divide by zero\\.$": 2,
+    "^  Assert\\.[A-Za-z]+ failed\\.": 0,
+    "^  total: 2$": 1,
+    "^  failed: 2$": 1,
+    "^  succeeded: 0$": 1
+  }
+}

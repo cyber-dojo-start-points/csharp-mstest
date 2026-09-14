@@ -1,0 +1,12 @@
+{
+  "matches": [ "^  System\\.DivideByZeroException: Attempted to divide by zero\\.$" ],
+  "match_counts": {
+    "^failed life_the_universe_and_everything \\(": 1,
+    "^failed ": 1,
+    "^  Test method HikerTest\\.life_the_universe_and_everything threw exception:$": 1,
+    "^  Assert\\.[A-Za-z]+ failed\\.": 0,
+    "^  total: 1$": 1,
+    "^  failed: 1$": 1,
+    "^  succeeded: 0$": 1
+  }
+}

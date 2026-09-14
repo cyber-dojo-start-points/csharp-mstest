@@ -1,0 +1,12 @@
+{
+  "match_counts": {
+    "^failed the_answer_is_three_digits_long \\(": 1,
+    "^failed ": 1,
+    "^  Assert\\.AreEqual failed\\. Expected:<3>\\. Actual:<2>\\.": 1,
+    "^  Test method ": 0,
+    "^Test run summary: Failed! ": 1,
+    "^  total: 2$": 1,
+    "^  failed: 1$": 1,
+    "^  succeeded: 1$": 1
+  }
+}
