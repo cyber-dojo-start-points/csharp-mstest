@@ -22,7 +22,10 @@ trap cyber_dojo_exit EXIT SIGTERM
 
 #FAST ~0.45s:
 CSC=$(find /usr/share/dotnet/sdk -name csc.dll | head -1)
-CORE=$(ls -d /usr/share/dotnet/shared/Microsoft.NETCore.App/* | tail -1)
+# The reference assemblies of .NET itself: the same ones an ordinary build
+# compiles against. They describe every .NET type without holding its code, so
+# they are quicker for the compiler to read than the assemblies .NET runs on.
+REF_PACK=$(ls -d /usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/*/ref/net*/ | tail -1)
 
 # An MSTest test project is a program you run, not something a separate runner
 # loads, so it needs a Main. Normally the build writes one for you. Nothing
@@ -34,7 +37,7 @@ ENTRY_POINT=~/mstest_entry/MSTestEntryPoint.cs
 # image was built, which is why there is nothing to download when you run.
 REFERENCES=''
 for dll in ~/dojo_refs/*.dll; do REFERENCES="${REFERENCES} -r:${dll}"; done
-for dll in ${CORE}/System.*.dll ${CORE}/netstandard.dll; do REFERENCES="${REFERENCES} -r:${dll}"; done
+for dll in ${REF_PACK}*.dll; do REFERENCES="${REFERENCES} -r:${dll}"; done
 
 # MSTest is beside your compiled tests rather than on a search path, so the
 # assemblies it needs at run time are put next to them.
