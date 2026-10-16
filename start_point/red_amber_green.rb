@@ -29,14 +29,14 @@ lambda { |stdout,stderr,status|
     # says the test method threw.
     #
     #     failed three_fails (5ms)
-    #       Assert.AreEqual failed. Expected:<42>. Actual:<54>. ...
+    #       Assertion failed. Expected values to be equal.
     #     failed one_errors (5ms)
     #       Test method HikerTest.one_errors threw exception:
     #
     # Every failure has to be an assertion for this to be red. One that is not
     # means something went wrong rather than something being wrong.
     failures = output.scan(/^failed \S+ \(\d+ms\)/).size
-    assertions = output.scan(/^\s*Assert\.\w+ failed\./).size
+    assertions = output.scan(/^\s*Assertion failed\./).size
     return :red if failures.positive? && failures == assertions
     return :amber
   end

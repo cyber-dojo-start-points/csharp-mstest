@@ -1,7 +1,7 @@
 {
   "match_counts": {
     "^failed ": 3,
-    "^  Assert\\.AreEqual failed\\.": 3,
+    "^  Assertion failed\\.": 3,
     "^  Test method ": 0,
     "^Test run summary: Failed! ": 1,
     "^  total: 3$": 1,

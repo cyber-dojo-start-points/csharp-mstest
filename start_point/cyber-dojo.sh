@@ -61,6 +61,6 @@ if ! dotnet ${CSC} -nologo -nowarn:1701,1702 -target:exe -out:bin/dojo.dll ${REF
 fi
 
 # --no-ansi because this output is read by a program as well as by you, and
-# --no-progress because the progress lines redraw themselves, which reads as
+# --progress off because the progress lines redraw themselves, which reads as
 # repetition once the escape characters are gone.
-dotnet bin/dojo.dll --no-ansi --no-progress
+dotnet bin/dojo.dll --no-ansi --progress off

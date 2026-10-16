@@ -2,7 +2,9 @@
   "match_counts": {
     "^failed the_answer_is_three_digits_long \\(": 1,
     "^failed ": 1,
-    "^  Assert\\.AreEqual failed\\. Expected:<3>\\. Actual:<2>\\.": 1,
+    "^  Assertion failed\\. Expected values to be equal\\.$": 1,
+    "^  expected: 3$": 1,
+    "^  actual: +2$": 1,
     "^  Test method ": 0,
     "^Test run summary: Failed! ": 1,
     "^  total: 2$": 1,

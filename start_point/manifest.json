@@ -1,13 +1,13 @@
 {
-  "image_name": "ghcr.io/cyber-dojo-languages/csharp_mstest:dbadf0a",
-  "display_name": "C# 14.0, MSTest 4.0",
+  "image_name": "ghcr.io/cyber-dojo-languages/csharp_mstest:69f4f7a@sha256:d944b540dfbe8f9f16e6f0dffcec5a1948bfa9c6891aabff908f36e6d3b76859",
+  "display_name": "C# 14.0, MSTest 4.5.1",
   "language": [
     "C#",
     "14.0"
   ],
   "test_framework": [
     "MSTest",
-    "4.0"
+    "4.5.1"
   ],
   "visible_filenames": [
     "cyber-dojo.sh",
