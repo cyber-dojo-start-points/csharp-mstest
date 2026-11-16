@@ -1,13 +1,13 @@
 {
-  "image_name": "ghcr.io/cyber-dojo-languages/csharp_mstest:c0227be@sha256:424a3001b1de39422415ad3d6084f78b42d805bf2d5f1994d0444eacb66c1a4b",
-  "display_name": "C# 14.0, MSTest 4.5.2",
+  "image_name": "ghcr.io/cyber-dojo-languages/csharp_mstest:c0227be@sha256:6b0157f321ba3ac4f5eeb46c2e135e34c53b0555685ba6c20e024b1a536bfedf",
+  "display_name": "C# 14.0, MSTest 4.5.3",
   "language": [
     "C#",
     "14.0"
   ],
   "test_framework": [
     "MSTest",
-    "4.5.2"
+    "4.5.3"
   ],
   "visible_filenames": [
     "cyber-dojo.sh",
